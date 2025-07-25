@@ -1,0 +1,130 @@
+/* STYLE SECTIONING TAGS */
+html{
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Pangolin', sans-serif;
+  margin: 2em;
+  background-color: #F3E9D2; 
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: bold;
+  color: #6CA0EF;
+  padding: 10px;
+  font-size: 45px;
+}
+
+h2 {
+  margin-top: 2em;
+  color: white;
+  text-align: center;
+  background-color: #6CA0EF; 
+}
+
+#instructions {
+  font-size: 20px;
+  max-width: 5000px;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-left: left;
+  padding: 20px;
+  text-align: center;
+  width: 30px;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  text-align: center;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 15em;
+  text-align: center;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  text-align: center;
+  padding: 0em;
+  background-color: #F8DCA0;
+  cursor: pointer;
+}
+
+.cover {
+  text-align: center;
+  width: 600px;
+  height: 400px;
+  
+}
+
+.attribution {
+  font-size: 12px;
+}
+
+#question1 {
+  margin-top: .8em;
+}
+
+#question2 {
+  max-width: 37em;
+}
+
+#question3 {
+  max-width: 37em;
+}
+
+#question4 {
+  max-width: 37em;
+}
+
+.selection1 {
+  display: flex;
+}
+
+.selection2 {
+  display: flex;
+}
+
+.answer-choice {
+  margin: 5px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #E3C08C;
+}
+
+button:focus{
+  background-color: #E3C08C;
+}
+
+#restart {
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Pangolin', sans-serif;
+}
+
+.question {
+  margin-top: 2em;
+  max-width: 20em;
+}
+
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center; 
+}
